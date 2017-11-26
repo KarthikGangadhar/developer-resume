@@ -1,3 +1,6 @@
+.htaccess
+.idea/
+
 # Logs
 logs
 *.log
