@@ -1,8 +1,10 @@
 {
     "title": "kgangadhar",
     "name": "Karthik Gangadhar",
-    "designation":"Web App Developer",
-    "photo": { "href": "https://i.imgur.com/3O6yvJI.png"},
+    "designation": "Web App Developer",
+    "photo": {
+        "href": "https://i.imgur.com/3O6yvJI.png"
+    },
     "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently working as a full stack developer at <a target='_blank' href='https://www.brillio.com/'>Brillio.</a> \r\n \r\n While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
     "social_media": [{
         "type": "twitter",
@@ -35,27 +37,27 @@
         "tags": [{
                 "name": "Node & Hapi",
                 "level": "Professional",
-                "percentile": "85"
+                "percentile": "85%"
             },
             {
                 "name": "Ruby-on-Rails",
                 "level": "Professional",
-                "percentile": "85"
+                "percentile": "85%"
             },
             {
                 "name": "Javascript &amp; jQuery",
                 "level": "Professional",
-                "percentile": "85"
+                "percentile": "85%"
             },
             {
                 "name": "MongoDB",
                 "level": "Moderate",
-                "percentile": "70"
+                "percentile": "70%"
             },
             {
                 "name": "HTML5, CSS3",
                 "level": "Moderate",
-                "percentile": "70"
+                "percentile": "70%"
             }
         ]
     },
@@ -65,7 +67,7 @@
                 "href": ""
             },
             "youtube_video": "https://www.youtube.com/embed/4llunjHyMfY",
-            "summary":"The Pencil-Run is Race Game created using python and pygame",
+            "summary": "The Pencil-Run is Race Game created using python and pygame",
             "description": "The Pencil-Run is Race Game created using Google doodles little student pencil animations for Teacher’s Day 2016. The animation shows a five pencils, where one of them represents a teacher, wearing spectacles and reading a book, while four other little student pencils can be seen walking behind the teacher with much enthusiasm.",
             "github_url": "https://github.com/KarthikGangadhar/Pencil-Run",
             "project_url": "",
@@ -189,7 +191,7 @@
             "start_year": "2011",
             "end_year": "2015"
         },
-        "specialization": "BE in Electronics & Communication Engineering"
+        "specialization": "BE Electronics and Communication"
     }],
     "learning": ["AngularJs"],
     "testimonials": [{

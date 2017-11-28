@@ -74,7 +74,7 @@
                             <% profile.projects.forEach((project) => { %>
                             <% if(project.isfeatured){ %>
                                 <div class="item featured text-center">
-                                        <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
+                                        <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a><span class="label label-theme">Open Source</span></h3>
                                         <p class="summary"><%= project.summary %></p>
                                         <div class="featured-image">
                                             <!-- <a href=<%= project.project_url %> target="_blank">
@@ -89,7 +89,7 @@
                                             <p>
                                                     <div class="desc text-left">
                                                             <% project.tags.forEach((tag) => { %>
-                                                               <span class="label label-tool"><%= tag %></span>
+                                                               <span class="label " style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
                                                             <% }) %>
                                                     </div>
                                             </p>
@@ -107,15 +107,21 @@
                                     <iframe class="col-md-4 col-sm-4 col-xs-12" src=<%= project.youtube_video %>  ></iframe>
                                 <% } %>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
+                                    <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a><span class="label label-theme">Open Source</span></h3>
                                     <p style="text-align:-webkit-auto !important"><%= project.description %></p>
                                     <div class="desc text-left">
                                             <% project.tags.forEach((tag) => { %>
-                                               <span class="label label-tool"><%= tag %></span>
+                                               <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
                                             <% }) %>
                                     </div>
-                                    <p><a class="more-link" href=<%= project.project_url %> target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div><!--//desc-->                          
+                                    <p>
+                                        <div class="col-xs-6">
+                                                <a class="more-link" href=<%= project.github_url %> target="_blank"><i class="fa fa-external-link"></i> GitHub</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <a class="more-link" href=<%= project.project_url %> target="_blank"><i class="fa fa-external-link"></i> more</a></p>
+                                        </div>
+                                    </div><!--//desc-->                          
                             </div><!--//item-->
                             <% } %>
                             
@@ -211,71 +217,25 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Here are some the skills that I'm using now a days. These are just the web technologies I've learnt for my profession.</p>
+                                <%= profile.skills.description %>
+                            </p>
                             
                             <div class="skillset">
                                
                                 <div class="skillset">
+                                    <% profile.skills.tags.forEach((tag) => { %>
                                     <div class="item">
-                                        <h3 class="level-title">Node & Hapi
-                                            <span class="level-label">Professional</span>
+                                        <h3 class="level-title"><%= tag.name %>
+                                            <span class="level-label"><%= tag.level %></span>
                                         </h3>
                                         <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="85%">
+                                            <div class="level-bar-inner" data-level=<%= tag.percentile %>  >
                                             </div>
                                         </div>
                                         <!--//level-bar-->
                                     </div>
                                     <!--//item-->
-    
-                                    <div class="item">
-                                        <h3 class="level-title">Ruby-on-Rails
-                                            <span class="level-label">Professional</span>
-                                        </h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="85%">
-                                            </div>
-                                        </div>
-                                        <!--//level-bar-->
-                                    </div>
-    
-                                    <div class="item">
-                                        <h3 class="level-title">Javascript &amp; jQuery
-                                            <span class="level-label">Professional</span>
-                                        </h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="85%">
-                                            </div>
-                                        </div>
-                                        <!--//level-bar-->
-                                    </div>
-                                    <!--//item-->
-    
-                                    <div class="item">
-                                        <h3 class="level-title">MongoDB
-                                            <span class="level-label">Moderate</span>
-                                        </h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="70%">
-                                            </div>
-                                        </div>
-                                        <!--//level-bar-->
-                                    </div>
-                                    <!--//item-->
-    
-                                    <div class="item">
-                                        <h3 class="level-title">HTML5, CSS3
-                                            <span class="level-label">Moderate</span>
-                                        </h3>
-                                        <div class="level-bar">
-                                            <div class="level-bar-inner" data-level="70%">
-                                            </div>
-                                        </div>
-                                        <!--//level-bar-->
-                                    </div>
-                                    <!--//item-->
-                                    
-                                <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>  -->
+                                    <% }) %>
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
@@ -302,10 +262,12 @@
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
+                            <% profile.education.forEach((section) => {  %>
                             <div class="item">                      
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BE Electronics and Communication </h3>
-                                <h4 class="university">Visvesvaraya Technological University <span class="year">(2011-2015)</span></h4>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> <%= section.specialization %> </h3>
+                                <h4 class="university"><%= section.institute %> <span class="year">(<%= section.timeline.start_year %>-<%= section.timeline.end_year %>)</span></h4>
                             </div><!--//item-->
+                            <% }) %>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
@@ -315,20 +277,11 @@
                         <h2 class="heading">Languages</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li class="item"><span class="title"><strong>English:</strong></span>
-                                    <span class="level">Full professional proficiency<br class="visible-xs" /></span>
+                                <% profile.languages.forEach((language) => { %>
+                                <li class="item"><span class="title"><strong><%= language.name %>:</strong></span>
+                                    <span class="level"><%= language.description %><br class="visible-xs" /></span>
                                 </li>
-                                <!--//item-->
-                                <li class="item">
-                                    <span class="title"><strong>Hindi:</strong></span>
-                                    <span class="level">Professional working proficiency<br class="visible-sm visible-xs" />
-                                    </span>
-                                </li>
-                                <!--//item-->
-                                <li class="item">
-                                    <span class="title"> <strong>Kannada:</strong></span>
-                                    <span class="level">Native or bilingual proficiency<br class="visible-sm visible-xs" /></span>
-                                </li>
+                                <% }) %>
                                 <!--//item-->
                             </ul>
                         </div><!--//content-->
