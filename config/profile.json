@@ -1,0 +1,195 @@
+{
+    "title": "kgangadhar",
+    "name": "Karthik Gangadhar",
+    "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently working as a full stack developer at Brillio. \n \n While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
+    "social_media": [{
+        "type": "twitter",
+        "href": "https://twitter.com/karthikg1643"
+    }, {
+        "type": "stack-overflow",
+        "href": "https://stackoverflow.com/users/story/6414102"
+    }, {
+        "type": "linkedin",
+        "href": "https://www.linkedin.com/in/karthik-gangadhar-88aa6b85/"
+    }, {
+        "type": "github",
+        "href": "https://github.com/karthikgangadhar/"
+    }],
+    "address": {
+        "line1": "",
+        "line2": "",
+        "location": "Bangalore, India",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India"
+    },
+    "email": "karthikg1643@gmail.com",
+    "phones": [{
+        "type": "whatsup",
+        "number": "+919880963561"
+    }],
+    "skills": {
+        "description": "Here are some the skills that I'm using now a days. These are just the web technologies I've learnt for my profession.",
+        "tags": [{
+                "name": "Node & Hapi",
+                "level": "Professional",
+                "percentile": "85"
+            },
+            {
+                "name": "Ruby-on-Rails",
+                "level": "Professional",
+                "percentile": "85"
+            },
+            {
+                "name": "Javascript &amp; jQuery",
+                "level": "Professional",
+                "percentile": "85"
+            },
+            {
+                "name": "MongoDB",
+                "level": "Moderate",
+                "percentile": "70"
+            },
+            {
+                "name": "HTML5, CSS3",
+                "level": "Moderate",
+                "percentile": "70"
+            }
+        ]
+    },
+    "projects": [{
+            "title": "Pencil-Run",
+            "photo": {
+                "href": ""
+            },
+            "youtube_video": "https://www.youtube.com/embed/4llunjHyMfY",
+            "description": "The Pencil-Run is Race Game created using Google doodles little student pencil animations for Teacher’s Day 2016. The animation shows a five pencils, where one of them represents a teacher, wearing spectacles and reading a book, while four other little student pencils can be seen walking behind the teacher with much enthusiasm.",
+            "github_url": "https://github.com/KarthikGangadhar/Pencil-Run",
+            "project_url": "",
+            "tags": [
+                "Python(3.2)",
+                "Pygame(1.9.2a0)"
+            ],
+            "type": "Open Source"
+        },
+
+        {
+            "title": "CricApi",
+            "photo": {
+                "href": "https://i.stack.imgur.com/LcXBZ.png"
+            },
+            "youtube_video": "",
+            "description": "This is ruby gem for www.cricapi.com live data access. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
+            "github_url": "https://github.com/KarthikGangadhar/CricApi",
+            "project_url": "https://rubygems.org/gems/CricApi",
+            "tags": [
+                "Httparty",
+                "Rake",
+                "Rspec",
+                "Rubygems"
+            ],
+            "type": "Open Source"
+        },
+        {
+            "title": "Ape-Cricket",
+            "photo": {
+                "href": "https://i.stack.imgur.com/ifEZO.jpg"
+            },
+            "youtube_video": "",
+            "description": "The ape-cricket is a rest-api exported as Node.js module. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
+            "github_url": "https://github.com/KarthikGangadhar/ape-cricket",
+            "project_url": "https://www.npmjs.com/package/ape-cricket",
+            "tags": [
+                "Node.js",
+                "NPM",
+                "Requestjs",
+                "Hapijs"
+            ],
+            "type": "Open Source"
+        },
+        {
+            "title": "cricketlive",
+            "photo": {
+                "href": "https://i.imgur.com/3tyElX0.jpg"
+            },
+            "youtube_video": "",
+            "description": "CricketLive is a rails 5 application build to provide UI for cric-api endpoints. In this project I used ruby on rails, html, javascript & bootstarp to render the pages. Have modelled the data consuming & integrating the api’s built in nodes , then performing the business logic in model only as per the fronted requirement & then rendering the pages.",
+            "github_url": "https://github.com/KarthikGangadhar/ape-cricket",
+            "project_url": "cricketlive.herokuapp.com",
+            "tags": [
+                "Ruby-on-Rails",
+                "Javascript",
+                "Jquery",
+                "CSS3"
+            ],
+            "type": "Open Source"
+        }
+    ],
+    "experience": [{
+        "organization": "Brillio",
+        "designation": "Software Engineer",
+        "description": "Currently I'm working on Brillio technologies. Developed Restful Api’s in Nodejs using framework Hapi/Expressjs with mongodb & redis for one of the big real estate site in US http://www.realtor.com/ Worked on presentation layer for the real estate site realtor.com using rails framework, modeling data consumed from other restful apis & rendering to frontend Responsible for managing the interchange of data between the server and the users in api development Responsible for coding in highly agile environment creating complex & enterprise-transforming solutions in Nodejs Development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end",
+        "time_line": {
+            "start_year": "September 2015",
+            "end_year": "current"
+        },
+        "url": "https://www.brillio.com/"
+    }],
+    "github": {
+        "user_name": "karthikgangadhar",
+        "url": "https://github.com/karthikgangadhar/"
+    },
+    "stack_overflow": {
+        "user_name": "kgangadhar",
+        "user_id": "6414102",
+        "url": "https://stackoverflow.com/users/story/6414102"
+    },
+    "twitter": {
+        "user_name": "karthikg1643",
+        "url": "https://twitter.com/karthikg1643"
+    },
+    "linkedin": {
+        "user_name": "karthik gangadhar",
+        "url": "https://www.linkedin.com/in/karthik-gangadhar-88aa6b85/"
+    },
+    "employment": {
+        "organization": "Brillio",
+        "designation": "Fullstack developper",
+        "job_status": "Open for Consultation",
+        "url": "https://www.brillio.com/"
+    },
+    "languages": [{
+            "name": "English",
+            "description": "Full professional proficiency"
+        },
+        {
+            "name": "Hindi",
+            "description": "Professional working proficiency"
+        },
+        {
+            "name": "Kannada",
+            "description": "Native or bilingual proficiency"
+        }
+    ],
+    "certificates": [{
+        "title": "React Nanodegree by Udacity",
+        "issued_date": "October 2017",
+        "link": "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d8390774-0bda-4d72-b31b-eb7077e9b83a.pdf?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2Bsgw%2F8mGQDSArAnFxNbcCw%3D%3D"
+    }],
+    "education": [{
+        "institute": "Visvesvaraya Technological University",
+        "timeline": {
+            "start_year": "2011",
+            "end_year": "2015"
+        },
+        "specialization": "BE in Electronics & Communication Engineering"
+    }],
+    "learning": ["AngularJs"],
+    "testimonials": [{
+        "name": "Craig White",
+        "designation": "Upwork Client",
+        "description": "Great at interpreting a brief project description and very good at finding solutions to issues. Honest, reliable and professional. Faysal is on my speed dial for future projects.",
+        "link": ""
+    }]
+
+}
