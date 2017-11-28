@@ -78,7 +78,7 @@
         {
             "title": "CricApi",
             "photo": {
-                "href": "https://i.stack.imgur.com/LcXBZ.png"
+                "href": "https://i.imgur.com/0r2eaUQ.png"
             },
             "youtube_video": "",
             "description": "This is ruby gem for www.cricapi.com live data access. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
@@ -95,7 +95,7 @@
         {
             "title": "Ape-Cricket",
             "photo": {
-                "href": "https://i.stack.imgur.com/ifEZO.jpg"
+                "href": "https://i.imgur.com/Knp2PQt.png"
             },
             "youtube_video": "",
             "description": "The ape-cricket is a rest-api exported as Node.js module. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
