@@ -1,10 +1,10 @@
-var express = require('express');
-var router = express.Router();
-var profile = require("../config/profile")
-
+const express = require('express');
+const router = express.Router();
+const profile = require("../config/profile")
+const settings = require("../config/settings")
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { profile: profile });
+  res.render('index', { profile: profile, settings: settings });
 });
 
 module.exports = router;

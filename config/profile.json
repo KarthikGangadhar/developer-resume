@@ -1,7 +1,9 @@
 {
     "title": "kgangadhar",
     "name": "Karthik Gangadhar",
-    "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently working as a full stack developer at Brillio. \n \n While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
+    "designation":"Web App Developer",
+    "photo": { "href": "https://i.imgur.com/3O6yvJI.png"},
+    "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently working as a full stack developer at <a target='_blank' href='https://www.brillio.com/'>Brillio.</a> \r\n \r\n While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
     "social_media": [{
         "type": "twitter",
         "href": "https://twitter.com/karthikg1643"

@@ -3,7 +3,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 <head>
-    <title>kgangadhar</title>
+    <title><%= profile.title %></title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,16 +39,15 @@
     <!-- ******HEADER****** --> 
     <header class="header">
         <div class="container">                       
-            <img class="profile-image img-responsive pull-left" src="images/profile.png" alt="James Lee" />
+            <img class="profile-image img-responsive pull-left" src=<%= profile.photo.href %> alt="<%= profile.name %>" />
             <div class="profile-content pull-left">
-                <h1 class="name">Karthik Gangadhar</h1>
-                <h2 class="desc">Web App Developer</h2>   
+                <h1 class="name"><%= profile.name %></h1>
+                <h2 class="desc"><%= profile.designation %></h2>
                 <ul class="social list-inline">
-                    <li><a href="https://twitter.com/karthikg1643"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="https://stackoverflow.com/users/story/6414102"><i class="fa fa-stack-overflow"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/karthik-gangadhar-88aa6b85/"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/karthikgangadhar/"><i class="fa fa-github-alt"></i></a></li>               
-                </ul> 
+                    <% profile.social_media.forEach((item) => { %>
+                       <li><a href=<%= item.href %> ><i class="fa fa-<%= settings.social_media[item.type] %>"></i></a></li>
+                    <% }) %>
+                </ul>
             </div><!--//profile-->
             <a class="btn btn-cta-primary pull-right" href="https://www.messenger.com/t/karthik gangadhar" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>              
         </div><!--//container-->
@@ -61,15 +60,8 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web
-                                services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently
-                                working as a full stack developer at
-                                <a target="_blank" href="https://www.brillio.com/">Brillio.</a>
-                            </p>
-
-                            <p>While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and
-                                similar kind technologies. Now a days learning Angularjs to enhance my skillset.
-                                Apart from coding, I'm also good at playing cricket & foosball.
+                            <p>
+                                <%- profile.description %>
                             </p>
                         </div><!--//content-->
                     </div><!--//section-inner-->                 
