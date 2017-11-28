@@ -65,6 +65,7 @@
                 "href": ""
             },
             "youtube_video": "https://www.youtube.com/embed/4llunjHyMfY",
+            "summary":"The Pencil-Run is Race Game created using python and pygame",
             "description": "The Pencil-Run is Race Game created using Google doodles little student pencil animations for Teacher’s Day 2016. The animation shows a five pencils, where one of them represents a teacher, wearing spectacles and reading a book, while four other little student pencils can be seen walking behind the teacher with much enthusiasm.",
             "github_url": "https://github.com/KarthikGangadhar/Pencil-Run",
             "project_url": "",
@@ -72,7 +73,8 @@
                 "Python(3.2)",
                 "Pygame(1.9.2a0)"
             ],
-            "type": "Open Source"
+            "type": "Open Source",
+            "isfeatured": true
         },
 
         {
@@ -90,7 +92,8 @@
                 "Rspec",
                 "Rubygems"
             ],
-            "type": "Open Source"
+            "type": "Open Source",
+            "isfeatured": false
         },
         {
             "title": "Ape-Cricket",
@@ -107,24 +110,26 @@
                 "Requestjs",
                 "Hapijs"
             ],
-            "type": "Open Source"
+            "type": "Open Source",
+            "isfeatured": false
         },
         {
             "title": "cricketlive",
             "photo": {
-                "href": "https://i.imgur.com/3tyElX0.jpg"
+                "href": "https://i.imgur.com/oIh0NZT.png"
             },
             "youtube_video": "",
             "description": "CricketLive is a rails 5 application build to provide UI for cric-api endpoints. In this project I used ruby on rails, html, javascript & bootstarp to render the pages. Have modelled the data consuming & integrating the api’s built in nodes , then performing the business logic in model only as per the fronted requirement & then rendering the pages.",
             "github_url": "https://github.com/KarthikGangadhar/ape-cricket",
-            "project_url": "cricketlive.herokuapp.com",
+            "project_url": "https://cricketlive.herokuapp.com/",
             "tags": [
                 "Ruby-on-Rails",
                 "Javascript",
                 "Jquery",
                 "CSS3"
             ],
-            "type": "Open Source"
+            "type": "Open Source",
+            "isfeatured": false
         }
     ],
     "experience": [{

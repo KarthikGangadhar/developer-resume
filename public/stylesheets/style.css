@@ -5,3 +5,25 @@ body {
 a {
   color: #00b7ff;
 }
+
+.content_style{
+  text-align: initial !important
+}
+
+.label{
+  display: inline;
+  padding: .2em .6em .3em;
+  /* font-size: 75%; */
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+
+.label-tool {
+  background: rgba(153, 102, 255, 1);
+  font-size: 12px;
+}
