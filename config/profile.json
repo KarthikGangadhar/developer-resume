@@ -61,43 +61,7 @@
             }
         ]
     },
-    "projects": [{
-            "title": "Pencil-Run",
-            "photo": {
-                "href": ""
-            },
-            "youtube_video": "https://www.youtube.com/embed/4llunjHyMfY",
-            "summary": "The Pencil-Run is Race Game created using python and pygame",
-            "description": "The Pencil-Run is Race Game created using Google doodles little student pencil animations for Teacher’s Day 2016. The animation shows a five pencils, where one of them represents a teacher, wearing spectacles and reading a book, while four other little student pencils can be seen walking behind the teacher with much enthusiasm.",
-            "github_url": "https://github.com/KarthikGangadhar/Pencil-Run",
-            "project_url": "",
-            "tags": [
-                "Python(3.2)",
-                "Pygame(1.9.2a0)"
-            ],
-            "type": "Open Source",
-            "isfeatured": true
-        },
-
-        {
-            "title": "CricApi",
-            "photo": {
-                "href": "https://i.imgur.com/0r2eaUQ.png"
-            },
-            "youtube_video": "",
-            "description": "This is ruby gem for www.cricapi.com live data access. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
-            "github_url": "https://github.com/KarthikGangadhar/CricApi",
-            "project_url": "https://rubygems.org/gems/CricApi",
-            "tags": [
-                "Httparty",
-                "Rake",
-                "Rspec",
-                "Rubygems"
-            ],
-            "type": "Open Source",
-            "isfeatured": false
-        },
-        {
+    "npm_modules": [{
             "title": "Ape-Cricket",
             "photo": {
                 "href": "https://i.imgur.com/Knp2PQt.png"
@@ -116,6 +80,61 @@
             "isfeatured": false
         },
         {
+            "title": "Stack-Exchange",
+            "photo": {
+                "href": "https://i.imgur.com/Knp2PQt.png"
+            },
+            "youtube_video": "",
+            "description": "The stack-exchange is a npm module created over stack-exchange api. The module will let you get stackoverflow data and as follwing sections: Users section, Me section, Questions section, Answers section, Badges section, Tags section, Comments section, Posts section, Search section, Suggested Edits section , Network section, Info section, Privilages section, Revisions section, Events section",
+            "github_url": "https://github.com/KarthikGangadhar/stack-exchange",
+            "project_url": "https://www.npmjs.com/package/stack-exchange",
+            "tags": [
+                "Node.js",
+                "NPM",
+                "Bluebird",
+                "Request",
+                "Util"
+            ],
+            "type": "Open Source",
+            "isfeatured": false
+        }
+    ],
+    "ruby_gems": [{
+        "title": "CricApi",
+        "photo": {
+            "href": "https://i.imgur.com/0r2eaUQ.png"
+        },
+        "youtube_video": "",
+        "description": "This is ruby gem for www.cricapi.com live data access. The live cricket score, player statistics and fantasy scorecard API allow you to get API data anytime, 24x7 at your fingertips. It's extremely simple, easy to use - with a huge collection of examples.",
+        "github_url": "https://github.com/KarthikGangadhar/CricApi",
+        "project_url": "https://rubygems.org/gems/CricApi",
+        "tags": [
+            "Httparty",
+            "Rake",
+            "Rspec",
+            "Rubygems"
+        ],
+        "type": "Open Source",
+        "isfeatured": false
+    }],
+    "projects": [{
+            "title": "Pencil-Run",
+            "photo": {
+                "href": ""
+            },
+            "youtube_video": "https://www.youtube.com/embed/4llunjHyMfY",
+            "summary": "The Pencil-Run is Race Game created using python and pygame",
+            "description": "The Pencil-Run is Race Game created using Google doodles little student pencil animations for Teacher’s Day 2016. The animation shows a five pencils, where one of them represents a teacher, wearing spectacles and reading a book, while four other little student pencils can be seen walking behind the teacher with much enthusiasm.",
+            "github_url": "https://github.com/KarthikGangadhar/Pencil-Run",
+            "project_url": "",
+            "tags": [
+                "Python(3.2)",
+                "Pygame(1.9.2a0)"
+            ],
+            "type": "Open Source",
+            "isfeatured": true
+        },
+        {
             "title": "cricketlive",
             "photo": {
                 "href": "https://i.imgur.com/oIh0NZT.png"
@@ -129,6 +148,26 @@
                 "Javascript",
                 "Jquery",
                 "CSS3"
+            ],
+            "type": "Open Source",
+            "isfeatured": false
+        },
+        {
+            "title": "apecricket REST api",
+            "photo": {
+                "href": "https://i.imgur.com/37r3Pie.jpg"
+            },
+            "youtube_video": "",
+            "description": "ApeCricket is REST api created over cricapi endpoints. The project used hapijs for providing rest structure along with lab, chai and good testing frame works with code coverage of 95%.",
+            "github_url": "https://github.com/KarthikGangadhar/CriApi",
+            "project_url": "http://apecricket.herokuapp.com/documentation#!",
+            "tags": [
+                "NodeJs",
+                "HapiJs",
+                "Lab",
+                "Chai",
+                "Good",
+                "Request"
             ],
             "type": "Open Source",
             "isfeatured": false
