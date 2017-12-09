@@ -129,6 +129,76 @@
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
+
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Npm Modules</h2>
+                        <div class="content">
+                            <% profile.npm_modules.forEach((project) => { %>    
+                            <div class="item row">
+                                <% if(!project.youtube_video){ %>
+                                <a class="col-md-4 col-sm-4 col-xs-12" href=<%= project.project_url %> target="_blank">
+                                <img class="img-responsive project-image" src=<%= project.photo.href %> alt=<%= project.title %> />
+                                </a>
+                                <% }else { %>
+                                    <iframe class="col-md-4 col-sm-4 col-xs-12" src=<%= project.youtube_video %>  ></iframe>
+                                <% } %>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
+                                    <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                    <div class="desc text-left">
+                                            <% project.tags.forEach((tag) => { %>
+                                               <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
+                                            <% }) %>
+                                    </div>
+                                    <p>
+                                        <div class="col-xs-6">
+                                                <a class="more-link" href=<%= project.github_url %> target="_blank"><i class="fa fa-external-link"></i> GitHub</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <a class="more-link" href=<%= project.project_url %> target="_blank"><i class="fa fa-external-link"></i> more</a></p>
+                                        </div>
+                                    </div><!--//desc-->                          
+                            </div><!--//item-->
+                             <% }) %>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Ruby Gems</h2>
+                        <div class="content">
+                            <% profile.ruby_gems.forEach((project) => { %>    
+                            <div class="item row">
+                                <% if(!project.youtube_video){ %>
+                                <a class="col-md-4 col-sm-4 col-xs-12" href=<%= project.project_url %> target="_blank">
+                                <img class="img-responsive project-image" src=<%= project.photo.href %> alt=<%= project.title %> />
+                                </a>
+                                <% }else { %>
+                                    <iframe class="col-md-4 col-sm-4 col-xs-12" src=<%= project.youtube_video %>  ></iframe>
+                                <% } %>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
+                                    <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                    <div class="desc text-left">
+                                            <% project.tags.forEach((tag) => { %>
+                                               <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
+                                            <% }) %>
+                                    </div>
+                                    <p>
+                                        <div class="col-xs-6">
+                                                <a class="more-link" href=<%= project.github_url %> target="_blank"><i class="fa fa-external-link"></i> GitHub</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <a class="more-link" href=<%= project.project_url %> target="_blank"><i class="fa fa-external-link"></i> more</a></p>
+                                        </div>
+                                    </div><!--//desc-->                          
+                            </div><!--//item-->
+                             <% }) %>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->                
                 
                 <section class="projects section">
                     <div class="section-inner">
