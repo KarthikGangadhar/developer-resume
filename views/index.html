@@ -207,9 +207,9 @@
                         <div class="content">
                             <% stPost.stResponse.forEach((post) => { %>
                             <div class="item">
-                                <h3 class="title"><a href="#">Answered on <%= post.date %></a></h3>                                                                
-                                <p class="summary"><%= post.title %></p>
                                 <% let answer_url = "https://stackoverflow.com/a/" + post.answer_id %>
+                                <h3 class="title"><a href="<%= answer_url %>">Answered on <%= post.date %></a></h3>                                                                
+                                <p class="summary"><%= post.title %></p>
                                 <p><a class="more-link" href="<%= answer_url %>" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                             </div><!--//item-->
                             <% }) %>
