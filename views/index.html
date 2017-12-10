@@ -41,6 +41,7 @@
         <div class="container">                       
             <img class="profile-image img-responsive pull-left" src=<%= profile.photo.href %> alt="<%= profile.name %>" />
             <div class="profile-content pull-left">
+                <!-- <%= !!stPost ? stPost : "its not coming" %> -->
                 <h1 class="name"><%= profile.name %></h1>
                 <h2 class="desc"><%= profile.designation %></h2>
                 <ul class="social list-inline">
@@ -204,22 +205,14 @@
                     <div class="section-inner">
                         <h2 class="heading"><i class="fa fa-stack-overflow" aria-hidden="true" ></i>   StackOverflow Posts</h2>
                         <div class="content">
+                            <% stPost.stResponse.forEach((post) => { %>
                             <div class="item">
-                                <h3 class="title"><a href="#">Answered on </a></h3>                                                                
-                                <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
-                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                <h3 class="title"><a href="#">Answered on <%= post.date %></a></h3>                                                                
+                                <p class="summary"><%= post.title %></p>
+                                <% let answer_url = "https://stackoverflow.com/a/" + post.answer_id %>
+                                <p><a class="more-link" href="<%= answer_url %>" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="#">Answered on </a></h3>                                
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="#">Answered on </a></h3>                                                                
-                                <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
-                                <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-mobile-apps-delta/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div><!--//item-->
-                            
+                            <% }) %>
                             <a class="btn btn-cta-secondary" href="https://stackoverflow.com/users/6414102/kgangadhar?tab=answers">More on StackOverflow <i class="fa fa-chevron-right"></i></a>
                             
                         </div><!--//content-->  
