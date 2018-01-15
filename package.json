@@ -15,7 +15,7 @@
     "jade": "~1.11.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5",
-    "stack-exchange": "0.0.1",
+    "stack-exchange": "0.0.2",
     "stylus": "0.54.5"
   }
 }
