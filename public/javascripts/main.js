@@ -55,11 +55,11 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    GitHubCalendar("#github-graph", "karthikgangadhar");
+    // GitHubCalendar("#github-graph", "karthikgangadhar");
     
     
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "karthikgangadhar", selector: "#ghfeed" });
+    // GitHubActivity.feed({ username: "karthikgangadhar", selector: "#ghfeed" });
 
 
 });
