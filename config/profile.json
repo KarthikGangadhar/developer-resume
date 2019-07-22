@@ -1,11 +1,11 @@
 {
     "title": "kgangadhar",
     "name": "Karthik Gangadhar",
-    "designation": "Web App Developer",
+    "designation": "Graduate Research Assistant",
     "photo": {
         "href": "https://i.imgur.com/3O6yvJI.png"
     },
-    "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently working as a full stack developer at <a target='_blank' href='https://www.brillio.com/'>Brillio.</a> \r\n \r\n While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
+    "description": "Hello there, I'm Karthik Gangadhar. I'm a professional Software developer working mostly on the web services. Enjoy building web apps using Node.js and Ruby-on-Rails technologies. Currently I am pursuing Master's in Computer Science at University of Texas at Arlington, Former full stack developer at Brillio. While I'm mostly in backend development, I'm pretty much comfortable working with bootstrap and similar kind technologies. Now a days learning Angularjs to enhance my skillset. Apart from coding, I'm also good at playing cricket & foosball.",
     "social_media": [{
         "type": "twitter",
         "href": "https://twitter.com/karthikg1643"
@@ -22,10 +22,10 @@
     "address": {
         "line1": "",
         "line2": "",
-        "location": "Bangalore, India",
-        "city": "Bangalore",
-        "state": "Karnataka",
-        "country": "India"
+        "location": "Texas, United States",
+        "city": "Arlington",
+        "state": "Texas",
+        "country": "United States"
     },
     "email": "karthikg1643@gmail.com",
     "phones": [{
@@ -34,7 +34,18 @@
     }],
     "skills": {
         "description": "Here are some the skills that I'm using now a days. These are just the web technologies I've learnt for my profession.",
-        "tags": [{
+        "tags": [
+            {
+                "name": "Python",
+                "level": "Moderate",
+                "percentile": "85%"
+            },
+            {
+                "name": "C/C++",
+                "level": "Moderate",
+                "percentile": "85%"
+            },
+            {
                 "name": "Node & Hapi",
                 "level": "Professional",
                 "percentile": "85%"
@@ -45,17 +56,12 @@
                 "percentile": "85%"
             },
             {
-                "name": "Javascript &amp; jQuery",
+                "name": "Javascript & jQuery",
                 "level": "Professional",
                 "percentile": "85%"
             },
             {
                 "name": "MongoDB",
-                "level": "Moderate",
-                "percentile": "70%"
-            },
-            {
-                "name": "HTML5, CSS3",
                 "level": "Moderate",
                 "percentile": "70%"
             }
@@ -173,16 +179,38 @@
             "isfeatured": false
         }
     ],
-    "experience": [{
-        "organization": "Brillio",
-        "designation": "Software Engineer",
-        "description": "Currently I'm working on Brillio technologies. Developed Restful Api’s in Nodejs using framework Hapi/Expressjs with mongodb & redis for one of the big real estate site in US http://www.realtor.com/ Worked on presentation layer for the real estate site realtor.com using rails framework, modeling data consumed from other restful apis & rendering to frontend Responsible for managing the interchange of data between the server and the users in api development Responsible for coding in highly agile environment creating complex & enterprise-transforming solutions in Nodejs Development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end",
+    "experience": [
+    {
+        "organization": " University of Texas Arlington",
+        "designation": "Research Assistant",
+        "description": "Building Bio-chemical sensors, Potentiostat, Amperometric devices using PSoC devices. \n Worked on PCB level Air Quality Monitoring systems design using BME680 and MISC6814 sensors.\n Firmware design for ATmega32u4, ATmega128, Arm Cortex-M3 for bio-chemical systems.\n Developed desktop applications to provide GUI for the Electro-Chemical systems devices.\n Developed android application to communicate with the Air quality monitoring system.",
         "time_line": {
-            "start_year": "September 2015",
+            "start_year": "December 2018",
             "end_year": "current"
         },
+        "url": "https://www.uta.edu/"
+    },
+    {
+        "organization": " Brillio",
+        "designation": "Senior Software Engineer",
+        "description": "Worked on migrating the Data from Mongodb to Dynamodb using Elastic search solutions.Created NodeJs Rest-Api's to control the server-side logic, definition and maintenance of the central database on AWS Web services.Worked on AWS solutions for the Elastic search and Dynamodb queries.",
+        "time_line": {
+            "start_year": "September 2017",
+            "end_year": "July 2018"
+        },
         "url": "https://www.brillio.com/"
-    }],
+    },
+    {
+        "organization": " Brillio",
+        "designation": "Software Engineer",
+        "description": "Developed Restful Api’s in Nodejs using framework Hapi/Expressjs with mongodb & redis for one of the big real estate site in US http://www.realtor.com/ Worked on presentation layer for the real estate site realtor.com using rails framework, modeling data consumed from other restful apis & rendering to frontend Responsible for managing the interchange of data between the server and the users in api development Responsible for coding in highly agile environment creating complex & enterprise-transforming solutions in Nodejs Development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end",
+        "time_line": {
+            "start_year": "September 2015",
+            "end_year": "September 2017"
+        },
+        "url": "https://www.brillio.com/"
+    }
+],
     "github": {
         "user_name": "karthikgangadhar",
         "url": "https://github.com/karthikgangadhar/"
@@ -225,6 +253,14 @@
         "link": "https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/d8390774-0bda-4d72-b31b-eb7077e9b83a.pdf?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B%2Bsgw%2F8mGQDSArAnFxNbcCw%3D%3D"
     }],
     "education": [{
+        "institute": "University of Texas, Arlington",
+        "timeline": {
+            "start_year": "2018",
+            "end_year": "2020"
+        },
+        "specialization": "Master of Sceince in Computer Science"
+    },
+    {
         "institute": "Visvesvaraya Technological University",
         "timeline": {
             "start_year": "2011",

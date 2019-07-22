@@ -223,27 +223,15 @@
                 <section class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
+                        <% profile.experience.forEach((experience) => { %>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Software Engineeer <span class="place"><a href="https://www.brillio.com/">Brillio</a></span> <span class="year">(September 2015 - Present)</span></h3>
-                                <p>
-                                    Currently I'm working on Brillio technologies. Developed Restful Api’s in Nodejs using framework Hapi/Expressjs with mongodb
-                                    & redis for one of the big real estate site <a href="http://www.realtor.com/">Realtor.com</a> in US Worked on presentation
-                                    layer for the real estate site realtor.com using rails framework, modeling data consumed
-                                    from other restful apis & rendering to frontend
-
-                                </p>
-
-                                <p>
-                                    Responsible for managing the interchange of data between the server and the users in api development Responsible for coding
-                                    in highly agile environment creating complex & enterprise-transforming solutions in Nodejs
-                                    Development of all server-side logic, definition and maintenance of the central database,
-                                    and ensuring high performance and responsiveness to requests from the front-end
-                                </p>
+                                <h3 class="title"><%= experience.designation %><span class="place"><a href=<%= experience.url %> > <%= experience.organization %></a></span> <span class="year">(<%= experience.time_line.start_year %> - <%= experience.time_line.end_year %>)</span></h3>
+                                <p><%= experience.description %></p>
                             </div><!--//item-->
-                            
-                        </div><!--//content-->  
-                    </div><!--//section-inner-->                 
+                        </div><!--//content-->
+                        <% }); %>               
+                    </div><!--//section-inner-->  
                 </section><!--//section-->
                 <section class="github section">
                     <div class="section-inner">
@@ -266,7 +254,7 @@
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Bangalore, India</li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Texas, United States</li>
                                 <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:karthikg1643@gmail.com">karthikg1643@gmail.com</a></li>
                                 <li><i class="fa fa-whatsapp"></i><span class="sr-only">Website:</span><a href="tel:+919880963561">+919880963561</a></li>
                             </ul>
