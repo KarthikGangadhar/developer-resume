@@ -61,7 +61,7 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>
+                            <p style="text-align: justify;">
                                 <%- profile.description %>
                             </p>
                         </div><!--//content-->
@@ -76,7 +76,7 @@
                             <% if(project.isfeatured){ %>
                                 <div class="item featured text-center">
                                         <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a><span class="label label-theme">Open Source</span></h3>
-                                        <p class="summary"><%= project.summary %></p>
+                                        <p class="summary" style="text-align: justify;"><%= project.summary %></p>
                                         <div class="featured-image">
                                             <!-- <a href=<%= project.project_url %> target="_blank">
                                             <img class="img-responsive project-image" src="images/projects/project-featured.png" alt="project name" />
@@ -86,7 +86,7 @@
                                             </div>
                                             
                                         <div class="desc text-left">                                    
-                                            <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                            <p style="text-align: justify;"><%= project.description %></p>
                                             <p>
                                                     <div class="desc text-left">
                                                             <% project.tags.forEach((tag) => { %>
@@ -109,7 +109,7 @@
                                 <% } %>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a><span class="label label-theme">Open Source</span></h3>
-                                    <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                    <p style="text-align: justify;"><%= project.description %></p>
                                     <div class="desc text-left">
                                             <% project.tags.forEach((tag) => { %>
                                                <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
@@ -146,7 +146,7 @@
                                 <% } %>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
-                                    <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                    <p style="text-align: justify;"><%= project.description %></p>
                                     <div class="desc text-left">
                                             <% project.tags.forEach((tag) => { %>
                                                <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
@@ -181,7 +181,7 @@
                                 <% } %>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
                                     <h3 class="title"><a href=<%= project.project_url %> target="_blank"><%= project.title %></a></h3>
-                                    <p style="text-align:-webkit-auto !important"><%= project.description %></p>
+                                    <p style="text-align: justify;"><%= project.description %></p>
                                     <div class="desc text-left">
                                             <% project.tags.forEach((tag) => { %>
                                                <span class="label" style="background: rgba(153, 102, 255, 1);font-size: 12px;"><%= tag %></span>
@@ -227,7 +227,7 @@
                         <div class="content">
                             <div class="item">
                                 <h3 class="title"><%= experience.designation %><span class="place"><a href=<%= experience.url %> > <%= experience.organization %></a></span> <span class="year">(<%= experience.time_line.start_year %> - <%= experience.time_line.end_year %>)</span></h3>
-                                <p><%= experience.description %></p>
+                                <p style="text-align: justify;"><%= experience.description %></p>
                             </div><!--//item-->
                         </div><!--//content-->
                         <% }); %>               
@@ -297,7 +297,7 @@
                         <div class="content">
                             <div class="item">
                                 <blockquote class="quote">                                  
-                                    <p><i class="fa fa-quote-left"></i>Karthik never shied away from taking on new challenges and additional responsibilities and invariably mastered everything he put his mind to. His keen sense of responsibility and strong work ethic ensured that he completed every task well within the stipulated time. Karthik was a quick learner and was able to grasp the intricacies of each project within no time and soon excelled at his duties. I wish him the best in all his endeavors and every success in the future.</p>
+                                    <p style="text-align: justify;"><i class="fa fa-quote-left"></i>Karthik never shied away from taking on new challenges and additional responsibilities and invariably mastered everything he put his mind to. His keen sense of responsibility and strong work ethic ensured that he completed every task well within the stipulated time. Karthik was a quick learner and was able to grasp the intricacies of each project within no time and soon excelled at his duties. I wish him the best in all his endeavors and every success in the future.</p>
                                 </blockquote>                
                                 <p class="source"><span class="name">Omendra Pandey</span><br /><span class="title">Associate - Projects at Cognizant</span></p>
                             </div><!--//item-->
@@ -343,14 +343,6 @@
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
-                
-                <!-- blog posts partial should come here -->
-                
-                <!-- favorate music partial should come here -->
-                
-                <!-- conference partial should come here -->
-                
-                <!-- credit partial should come here -->
               
             </div><!--//secondary-->    
         </div><!--//row-->
